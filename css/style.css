@@ -1,0 +1,409 @@
+/*-----Author Info
+
+Name: Sadia Afrin Sayfa
+Mail: sadiasayfa123@gmail.com
+website: none
+*/
+
+/*-
+======Index===
+1.Home
+2.About us
+3.Our Services
+4.Prices
+5.Contact
+=========== 
+*/
+
+/*  Global Css */
+.no-padding{
+	padding: 0;
+}
+span {
+    border-bottom: 2px solid #ed145b;
+    display: block;
+    width: 17%;
+    margin: 0 auto 45px;
+}
+h2 {
+    font-size: 28px;
+    width: 75%;
+    margin: 80px auto 0px;
+    text-align: center;
+    margin: 90px auto 35px;
+}
+p {
+    width: 73%;
+    margin:0 auto 45px;
+    text-align: center;
+}
+.btn {
+    background-color: #ed145b;
+    border-radius: 32px;
+    color: white;
+    width: 160px;
+}
+.btn:hover{
+    color:#ed145b;
+    background-color: white;
+    border:1px solid #ed145b;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/*   Header  */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ed145b;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: yellow;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    padding: 9px 20px;
+}
+.fa.fa-home{
+    color: black;
+    font-size: 40px;
+
+}
+/* SECTION_1 Home */
+.sec-1{
+	background:url(../img/banner.png)center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.hero{
+	text-align: center;
+	color: white;
+    padding-bottom: 80px;
+}
+.hero h1 {
+    padding: 170px 0px 30px;
+    font-style: bold;
+    font-weight: 300;
+}
+.hero p{
+
+}
+span {
+    border-bottom: 2px solid #ed145b;
+    display: block;
+    width: 17%;
+    margin: 0 auto 45px;
+}
+.btn-hero {
+    color: white;
+    background-color: #ed145b;
+    padding: 10px 31px;
+    margin-top: 60px;
+    border-radius: 35px;
+}
+
+/* SECTION_2 About us */
+.sec-2{
+	background-color: #f4f4f4;
+}
+
+.sec-2-info h2 {
+    margin-left: 0px;
+    text-align: inherit;
+}
+.sec-2-info span {
+    border-bottom: 2px solid #ed145b;
+    display: block;
+    width: 28%;
+    margin: 35px 0 45px;
+}
+.sec-2-info p {
+    font-size: 14px;
+    text-align: inherit;
+    margin-left: 0;
+}
+.sec-2-img {
+    margin-top: 135px;
+}
+.sec-2-info h3 {
+    font-size: 20px;
+    color: #ed145b;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.fa.fa-play-circle-o {
+    font-size: 28px;
+}
+
+/*   SECTION_3 Our Services  */
+
+.sec-3-header{
+	text-align: center;
+
+}
+.sec-3-info{
+	text-align: center;
+}
+.sec-3-info h4 {
+    margin: 30px 0px 110px;
+    color: #ed145b;
+    font-size: 17px;
+}
+
+/* Quote */
+
+.quote{
+	background: url(../img/quote.png)center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*     SECTION_4 Prices      */
+
+.sec-4{
+	background-color: #f4f4f4;
+}
+.top-part {
+    background-color: #5a5a5a;
+    height: 140px;
+    text-align: center;
+    color: white;
+}
+.card{
+	position: relative;
+	margin-bottom: 130px;
+}
+.card:hover .top-part{
+	background-color: #ed145b;
+}
+.top-part span {
+    font-size: 20px;
+    border-bottom: none;
+    margin: 0;
+    padding: 20px 0px 0px;
+}
+.top-part h1 {
+    display: -webkit-inline-box;
+    margin: 20px 0px 0px;
+}
+.top-part p{
+	color: white;
+}
+.business-label {
+    position: absolute;
+    top: 25%;
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    font-size: 12px;
+    left: 11%;
+}
+.business-label h6 {
+    font-size: 17px;
+    padding: 10px 60px;
+}
+.card-info {
+    padding: 65px 0px;
+    text-align: center;
+}
+.sec-4-btn {
+    margin: -66px auto 15px;
+    width: 60%;
+}
+
+/*   Section -5       */
+
+.sec-5-parts {
+    padding: 25px 0;
+}
+.sec-5-info{
+
+}
+.sec-5-info h1 {
+    font-size: 15px;
+    color: #ed145b;
+}
+.sec-5-info p {
+    font-size: 12px;
+    text-align: initial;
+    margin: 0px;
+    width: 100%;
+}
+
+/*   Section-6  Join Us */
+.sec-6{
+    background-color: #ed145b; 
+    text-align: center;
+}
+.sec-6 h1 {
+    padding: 80px 0px;
+    color: white;
+    font-weight: 300;
+}
+.sec-6-btn {
+    color: #ed145b;
+    background-color: white;
+    width: 16%;
+    margin: 0px 58px;
+}
+.sec-6-btn:hover{
+    color: white;
+    background-color:#ed145b;
+    border:1px solid white;
+}
+
+/* Section-7 News   */
+
+.parent-img h6 {
+    padding: 30px 0px 15px;
+}
+.parent-img p {
+    width: 90%;
+    margin: 0px 0px 22px;
+    text-align: initial;
+}
+.parent-img img{
+    width: 90%;
+}
+.parent-img {
+    padding: 0px;
+    width: 90%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.img-hover {
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background-color: #ed145bab;
+    width: 90%;
+    height: 62.8%;
+}
+.parent-img:hover .img-hover{
+    top: 0px;
+    left: 0px;
+} 
+.fa.fa-search {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 30px;
+    color: white;
+}
+.sec-7-bottom h4 {
+    font-size: 1rem;
+    color: #ed145b;
+    text-align:center;
+    padding-top: 105px;
+}
+.fa.fa-chevron-down {
+    font-size: 20px;
+    color: #ed145b;
+    text-align: center;
+    display: block;
+    padding: 0px 0px 27px;
+}
+
+/*   Section-8 Contact    */
+
+.sec-8{
+    background:url(../img/img-b.png)top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.sec-8-info{
+    padding: 130px 0px;
+}
+.sec-8-btn{
+    display: block;
+    margin:20px auto 50px;
+    width: 20%;
+}
+
+/*      Section-9 Download  */
+.sec-9{
+    background-color: #f4f4f4;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+.download-img{
+
+}
+.download-info{
+    text-align: initial;
+
+}
+.download-info h2{
+    text-align: initial;
+    width: 100%;
+
+}
+.download-info span{
+    text-align: initial;
+    margin: 0 0 15px;
+
+}
+.download-info p{
+    text-align: initial;
+    width: 100%;
+
+}
+.btn-download{
+    margin-left: 70px;
+    width:40%;
+}
+
+
+
+
+/* Media Query */
+
+/*  medium device */
+@media (min-width: 500.01px) and (max-width: 780px){
+
+/*   Header  */
+    .navbar-dark .navbar-nav .nav-link.active{
+    width: 65%;
+    text-align: center;
+}
+/* Section-4 Prices */
+
+    .business-label {
+    left: 17%;
+}
+    .card{
+    width: 70%;
+    margin: 10px auto;
+    
+}
+/*       Section-5      */
+    .sec-5-parts{
+        width: 80%;
+        margin: 10px auto;
+    }
+/* sECTION-6 */
+.sec-6-btn{
+    width: 25%;
+}
+/*   Nwews Sec-7 */
+.parent-img{
+    margin: 0 auto;
+}
+.img-hover {
+    height: 66%;
+}
+
+/* btn */
+.sec-8-btn{
+    width: 30%;
+}
+.btn-download{
+    margin: 0 auto;
+    display: block;
+}
+
+
+}
